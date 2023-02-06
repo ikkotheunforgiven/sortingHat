@@ -22,7 +22,7 @@
 
 <template>
     <div class="flex w-1/2 pt-10 mb-5">
-        <img src="https://i.pinimg.com/originals/f8/df/21/f8df21490b911ab243d0eb153b9d4f75.png" class="self-end w-20 mr-4" alt="hat">
+        <img src="/img/sortingHat.png" class="self-end w-20 mr-4" alt="hat">
         <div class="flex flex-col">
             <div class="bg-green-700 rounded-3xl rounded-bl-none shadow-sm p-4 mb-2">
                 <p class="text-xl">{{ content }}</p>
