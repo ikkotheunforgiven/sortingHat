@@ -1,10 +1,14 @@
 <template>
-  <div class="bg-gray-900 h-screen">
+  <div>
     <NuxtPage />
   </div>
 </template>
 
 <style>
+  body {
+    background-color: #111827;
+  }
+
   div {
     color: white;
     font-family: 'Life Savers', cursive;
