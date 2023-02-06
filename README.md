@@ -1,8 +1,15 @@
-# Nuxt 3 Minimal Starter
+# Facing the sorting hat
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+This is facing the sorting hat test
 
 ## Setup
+
+Clone the project first:
+
+```bash
+# git
+git clone https://github.com/ikkotheunforgiven/sortingHat.git
+```
 
 Make sure to install the dependencies:
 
@@ -39,4 +46,6 @@ Locally preview production build:
 npm run preview
 ```
 
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+## Contributions
+
+If you want to contribute to this project follow the steps above and make your changes. Then make a pull request on GitHub.
