@@ -16,7 +16,9 @@
         </div>
         <div class="flex justify-center mt-10 mb-10" id="nameInput">
             <input class="w-64 h-11 rounded rounded-r-none  text-center text-black" type="text" v-model="name" placeholder="Type your name here...">
-            <button class="w-20 h-11 rounded rounded-l-none  bg-green-700 hover:bg-green-800 focus:outline-none focus:ring" @click="answer">Send</button>
+            <NuxtLink v-slot="{ navigate }" to="/results" custom>
+                <button class="w-20 h-11 rounded rounded-l-none  bg-green-700 hover:bg-green-800 focus:outline-none focus:ring" @click="navigate">Send</button>
+            </NuxtLink>
         </div>
     </div> 
 </template>
